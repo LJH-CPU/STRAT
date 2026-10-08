@@ -2,7 +2,8 @@ cff-version: 1.2.0
 message: "If you use this code or the released results, please cite the STRAT paper."
 title: "STRAT: Spatio-Temporal Relational-Attention Transformer for Leakage-Free, Uncertainty-Aware Tourist Trajectory Forecasting"
 authors:
-  - name: "The STRAT Authors"
+  - family-names: Lan
+    given-names: Junhao
 license: MIT
 repository-code: "https://github.com/LJH-CPU/STRAT"
 type: software
