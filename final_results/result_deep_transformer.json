@@ -1,0 +1,812 @@
+{
+ "seed42": [
+  {
+   "target": "长白山",
+   "seed": 42,
+   "model": "transformer",
+   "setting": "zero-shot",
+   "mae_min": 11.39,
+   "secs": 28.8
+  },
+  {
+   "target": "丹霞山",
+   "seed": 42,
+   "model": "transformer",
+   "setting": "zero-shot",
+   "mae_min": 6.29,
+   "secs": 28.9
+  },
+  {
+   "target": "峨眉山",
+   "seed": 42,
+   "model": "transformer",
+   "setting": "zero-shot",
+   "mae_min": 5.19,
+   "secs": 25.7
+  },
+  {
+   "target": "梵净山",
+   "seed": 42,
+   "model": "transformer",
+   "setting": "zero-shot",
+   "mae_min": 7.59,
+   "secs": 27.2
+  },
+  {
+   "target": "恒山",
+   "seed": 42,
+   "model": "transformer",
+   "setting": "zero-shot",
+   "mae_min": 5.52,
+   "secs": 29.0
+  },
+  {
+   "target": "衡山",
+   "seed": 42,
+   "model": "transformer",
+   "setting": "zero-shot",
+   "mae_min": 4.46,
+   "secs": 27.9
+  },
+  {
+   "target": "华山",
+   "seed": 42,
+   "model": "transformer",
+   "setting": "zero-shot",
+   "mae_min": 8.17,
+   "secs": 27.4
+  },
+  {
+   "target": "黄山",
+   "seed": 42,
+   "model": "transformer",
+   "setting": "zero-shot",
+   "mae_min": 7.57,
+   "secs": 28.8
+  },
+  {
+   "target": "九华山",
+   "seed": 42,
+   "model": "transformer",
+   "setting": "zero-shot",
+   "mae_min": 7.36,
+   "secs": 28.0
+  },
+  {
+   "target": "庐山",
+   "seed": 42,
+   "model": "transformer",
+   "setting": "zero-shot",
+   "mae_min": 6.45,
+   "secs": 25.4
+  },
+  {
+   "target": "青城山",
+   "seed": 42,
+   "model": "transformer",
+   "setting": "zero-shot",
+   "mae_min": 4.73,
+   "secs": 28.1
+  },
+  {
+   "target": "三清山",
+   "seed": 42,
+   "model": "transformer",
+   "setting": "zero-shot",
+   "mae_min": 7.21,
+   "secs": 27.0
+  },
+  {
+   "target": "嵩山",
+   "seed": 42,
+   "model": "transformer",
+   "setting": "zero-shot",
+   "mae_min": 6.61,
+   "secs": 27.4
+  },
+  {
+   "target": "太白山",
+   "seed": 42,
+   "model": "transformer",
+   "setting": "zero-shot",
+   "mae_min": 9.94,
+   "secs": 26.9
+  },
+  {
+   "target": "泰山",
+   "seed": 42,
+   "model": "transformer",
+   "setting": "zero-shot",
+   "mae_min": 6.89,
+   "secs": 27.1
+  },
+  {
+   "target": "五台山",
+   "seed": 42,
+   "model": "transformer",
+   "setting": "zero-shot",
+   "mae_min": 5.48,
+   "secs": 27.9
+  },
+  {
+   "target": "武当山",
+   "seed": 42,
+   "model": "transformer",
+   "setting": "zero-shot",
+   "mae_min": 5.14,
+   "secs": 28.0
+  },
+  {
+   "target": "武夷山",
+   "seed": 42,
+   "model": "transformer",
+   "setting": "zero-shot",
+   "mae_min": 5.47,
+   "secs": 29.3
+  },
+  {
+   "target": "雁荡山",
+   "seed": 42,
+   "model": "transformer",
+   "setting": "zero-shot",
+   "mae_min": 7.19,
+   "secs": 28.1
+  },
+  {
+   "target": "张家界",
+   "seed": 42,
+   "model": "transformer",
+   "setting": "zero-shot",
+   "mae_min": 6.33,
+   "secs": 27.7
+  }
+ ],
+ "seed100": [
+  {
+   "target": "长白山",
+   "seed": 100,
+   "model": "transformer",
+   "setting": "zero-shot",
+   "mae_min": 11.81,
+   "secs": 27.5
+  },
+  {
+   "target": "丹霞山",
+   "seed": 100,
+   "model": "transformer",
+   "setting": "zero-shot",
+   "mae_min": 6.49,
+   "secs": 27.0
+  },
+  {
+   "target": "峨眉山",
+   "seed": 100,
+   "model": "transformer",
+   "setting": "zero-shot",
+   "mae_min": 5.24,
+   "secs": 23.0
+  },
+  {
+   "target": "梵净山",
+   "seed": 100,
+   "model": "transformer",
+   "setting": "zero-shot",
+   "mae_min": 8.23,
+   "secs": 27.6
+  },
+  {
+   "target": "恒山",
+   "seed": 100,
+   "model": "transformer",
+   "setting": "zero-shot",
+   "mae_min": 6.34,
+   "secs": 28.7
+  },
+  {
+   "target": "衡山",
+   "seed": 100,
+   "model": "transformer",
+   "setting": "zero-shot",
+   "mae_min": 4.34,
+   "secs": 27.4
+  },
+  {
+   "target": "华山",
+   "seed": 100,
+   "model": "transformer",
+   "setting": "zero-shot",
+   "mae_min": 8.71,
+   "secs": 28.0
+  },
+  {
+   "target": "黄山",
+   "seed": 100,
+   "model": "transformer",
+   "setting": "zero-shot",
+   "mae_min": 7.47,
+   "secs": 27.4
+  },
+  {
+   "target": "九华山",
+   "seed": 100,
+   "model": "transformer",
+   "setting": "zero-shot",
+   "mae_min": 6.98,
+   "secs": 17.7
+  },
+  {
+   "target": "庐山",
+   "seed": 100,
+   "model": "transformer",
+   "setting": "zero-shot",
+   "mae_min": 5.9,
+   "secs": 16.9
+  },
+  {
+   "target": "青城山",
+   "seed": 100,
+   "model": "transformer",
+   "setting": "zero-shot",
+   "mae_min": 4.18,
+   "secs": 18.0
+  },
+  {
+   "target": "三清山",
+   "seed": 100,
+   "model": "transformer",
+   "setting": "zero-shot",
+   "mae_min": 7.67,
+   "secs": 16.5
+  },
+  {
+   "target": "嵩山",
+   "seed": 100,
+   "model": "transformer",
+   "setting": "zero-shot",
+   "mae_min": 7.29,
+   "secs": 17.4
+  },
+  {
+   "target": "太白山",
+   "seed": 100,
+   "model": "transformer",
+   "setting": "zero-shot",
+   "mae_min": 8.89,
+   "secs": 17.0
+  },
+  {
+   "target": "泰山",
+   "seed": 100,
+   "model": "transformer",
+   "setting": "zero-shot",
+   "mae_min": 6.63,
+   "secs": 16.2
+  },
+  {
+   "target": "五台山",
+   "seed": 100,
+   "model": "transformer",
+   "setting": "zero-shot",
+   "mae_min": 5.13,
+   "secs": 18.3
+  },
+  {
+   "target": "武当山",
+   "seed": 100,
+   "model": "transformer",
+   "setting": "zero-shot",
+   "mae_min": 4.9,
+   "secs": 15.5
+  },
+  {
+   "target": "武夷山",
+   "seed": 100,
+   "model": "transformer",
+   "setting": "zero-shot",
+   "mae_min": 5.43,
+   "secs": 15.1
+  },
+  {
+   "target": "雁荡山",
+   "seed": 100,
+   "model": "transformer",
+   "setting": "zero-shot",
+   "mae_min": 6.88,
+   "secs": 15.4
+  },
+  {
+   "target": "张家界",
+   "seed": 100,
+   "model": "transformer",
+   "setting": "zero-shot",
+   "mae_min": 6.31,
+   "secs": 16.3
+  }
+ ],
+ "seed2024": [
+  {
+   "target": "长白山",
+   "seed": 2024,
+   "model": "transformer",
+   "setting": "zero-shot",
+   "mae_min": 10.52,
+   "secs": 15.3
+  },
+  {
+   "target": "丹霞山",
+   "seed": 2024,
+   "model": "transformer",
+   "setting": "zero-shot",
+   "mae_min": 5.59,
+   "secs": 15.3
+  },
+  {
+   "target": "峨眉山",
+   "seed": 2024,
+   "model": "transformer",
+   "setting": "zero-shot",
+   "mae_min": 5.24,
+   "secs": 14.3
+  },
+  {
+   "target": "梵净山",
+   "seed": 2024,
+   "model": "transformer",
+   "setting": "zero-shot",
+   "mae_min": 8.07,
+   "secs": 15.7
+  },
+  {
+   "target": "恒山",
+   "seed": 2024,
+   "model": "transformer",
+   "setting": "zero-shot",
+   "mae_min": 5.65,
+   "secs": 15.5
+  },
+  {
+   "target": "衡山",
+   "seed": 2024,
+   "model": "transformer",
+   "setting": "zero-shot",
+   "mae_min": 4.56,
+   "secs": 15.3
+  },
+  {
+   "target": "华山",
+   "seed": 2024,
+   "model": "transformer",
+   "setting": "zero-shot",
+   "mae_min": 8.12,
+   "secs": 15.2
+  },
+  {
+   "target": "黄山",
+   "seed": 2024,
+   "model": "transformer",
+   "setting": "zero-shot",
+   "mae_min": 7.54,
+   "secs": 15.0
+  },
+  {
+   "target": "九华山",
+   "seed": 2024,
+   "model": "transformer",
+   "setting": "zero-shot",
+   "mae_min": 7.28,
+   "secs": 15.6
+  },
+  {
+   "target": "庐山",
+   "seed": 2024,
+   "model": "transformer",
+   "setting": "zero-shot",
+   "mae_min": 5.89,
+   "secs": 14.9
+  },
+  {
+   "target": "青城山",
+   "seed": 2024,
+   "model": "transformer",
+   "setting": "zero-shot",
+   "mae_min": 4.59,
+   "secs": 14.9
+  },
+  {
+   "target": "三清山",
+   "seed": 2024,
+   "model": "transformer",
+   "setting": "zero-shot",
+   "mae_min": 7.64,
+   "secs": 15.9
+  },
+  {
+   "target": "嵩山",
+   "seed": 2024,
+   "model": "transformer",
+   "setting": "zero-shot",
+   "mae_min": 7.54,
+   "secs": 14.9
+  },
+  {
+   "target": "太白山",
+   "seed": 2024,
+   "model": "transformer",
+   "setting": "zero-shot",
+   "mae_min": 8.28,
+   "secs": 16.1
+  },
+  {
+   "target": "泰山",
+   "seed": 2024,
+   "model": "transformer",
+   "setting": "zero-shot",
+   "mae_min": 7.1,
+   "secs": 14.6
+  },
+  {
+   "target": "五台山",
+   "seed": 2024,
+   "model": "transformer",
+   "setting": "zero-shot",
+   "mae_min": 5.75,
+   "secs": 15.7
+  },
+  {
+   "target": "武当山",
+   "seed": 2024,
+   "model": "transformer",
+   "setting": "zero-shot",
+   "mae_min": 5.14,
+   "secs": 16.3
+  },
+  {
+   "target": "武夷山",
+   "seed": 2024,
+   "model": "transformer",
+   "setting": "zero-shot",
+   "mae_min": 5.69,
+   "secs": 15.5
+  },
+  {
+   "target": "雁荡山",
+   "seed": 2024,
+   "model": "transformer",
+   "setting": "zero-shot",
+   "mae_min": 6.52,
+   "secs": 15.4
+  },
+  {
+   "target": "张家界",
+   "seed": 2024,
+   "model": "transformer",
+   "setting": "zero-shot",
+   "mae_min": 6.54,
+   "secs": 14.8
+  }
+ ],
+ "seed7": [
+  {
+   "target": "长白山",
+   "seed": 7,
+   "model": "transformer",
+   "setting": "zero-shot",
+   "mae_min": 10.35,
+   "secs": 15.2
+  },
+  {
+   "target": "丹霞山",
+   "seed": 7,
+   "model": "transformer",
+   "setting": "zero-shot",
+   "mae_min": 6.17,
+   "secs": 15.3
+  },
+  {
+   "target": "峨眉山",
+   "seed": 7,
+   "model": "transformer",
+   "setting": "zero-shot",
+   "mae_min": 5.35,
+   "secs": 13.6
+  },
+  {
+   "target": "梵净山",
+   "seed": 7,
+   "model": "transformer",
+   "setting": "zero-shot",
+   "mae_min": 8.5,
+   "secs": 15.2
+  },
+  {
+   "target": "恒山",
+   "seed": 7,
+   "model": "transformer",
+   "setting": "zero-shot",
+   "mae_min": 5.69,
+   "secs": 15.7
+  },
+  {
+   "target": "衡山",
+   "seed": 7,
+   "model": "transformer",
+   "setting": "zero-shot",
+   "mae_min": 4.63,
+   "secs": 15.3
+  },
+  {
+   "target": "华山",
+   "seed": 7,
+   "model": "transformer",
+   "setting": "zero-shot",
+   "mae_min": 8.09,
+   "secs": 16.3
+  },
+  {
+   "target": "黄山",
+   "seed": 7,
+   "model": "transformer",
+   "setting": "zero-shot",
+   "mae_min": 7.31,
+   "secs": 15.4
+  },
+  {
+   "target": "九华山",
+   "seed": 7,
+   "model": "transformer",
+   "setting": "zero-shot",
+   "mae_min": 6.66,
+   "secs": 17.9
+  },
+  {
+   "target": "庐山",
+   "seed": 7,
+   "model": "transformer",
+   "setting": "zero-shot",
+   "mae_min": 5.78,
+   "secs": 16.6
+  },
+  {
+   "target": "青城山",
+   "seed": 7,
+   "model": "transformer",
+   "setting": "zero-shot",
+   "mae_min": 4.57,
+   "secs": 15.6
+  },
+  {
+   "target": "三清山",
+   "seed": 7,
+   "model": "transformer",
+   "setting": "zero-shot",
+   "mae_min": 7.1,
+   "secs": 16.4
+  },
+  {
+   "target": "嵩山",
+   "seed": 7,
+   "model": "transformer",
+   "setting": "zero-shot",
+   "mae_min": 6.72,
+   "secs": 15.2
+  },
+  {
+   "target": "太白山",
+   "seed": 7,
+   "model": "transformer",
+   "setting": "zero-shot",
+   "mae_min": 8.96,
+   "secs": 15.9
+  },
+  {
+   "target": "泰山",
+   "seed": 7,
+   "model": "transformer",
+   "setting": "zero-shot",
+   "mae_min": 7.35,
+   "secs": 14.9
+  },
+  {
+   "target": "五台山",
+   "seed": 7,
+   "model": "transformer",
+   "setting": "zero-shot",
+   "mae_min": 5.8,
+   "secs": 18.5
+  },
+  {
+   "target": "武当山",
+   "seed": 7,
+   "model": "transformer",
+   "setting": "zero-shot",
+   "mae_min": 4.87,
+   "secs": 18.3
+  },
+  {
+   "target": "武夷山",
+   "seed": 7,
+   "model": "transformer",
+   "setting": "zero-shot",
+   "mae_min": 5.44,
+   "secs": 15.6
+  },
+  {
+   "target": "雁荡山",
+   "seed": 7,
+   "model": "transformer",
+   "setting": "zero-shot",
+   "mae_min": 7.05,
+   "secs": 16.4
+  },
+  {
+   "target": "张家界",
+   "seed": 7,
+   "model": "transformer",
+   "setting": "zero-shot",
+   "mae_min": 6.18,
+   "secs": 15.6
+  }
+ ],
+ "seed17": [
+  {
+   "target": "长白山",
+   "seed": 17,
+   "model": "transformer",
+   "setting": "zero-shot",
+   "mae_min": 10.91,
+   "secs": 15.7
+  },
+  {
+   "target": "丹霞山",
+   "seed": 17,
+   "model": "transformer",
+   "setting": "zero-shot",
+   "mae_min": 6.83,
+   "secs": 16.0
+  },
+  {
+   "target": "峨眉山",
+   "seed": 17,
+   "model": "transformer",
+   "setting": "zero-shot",
+   "mae_min": 5.14,
+   "secs": 15.9
+  },
+  {
+   "target": "梵净山",
+   "seed": 17,
+   "model": "transformer",
+   "setting": "zero-shot",
+   "mae_min": 7.41,
+   "secs": 17.6
+  },
+  {
+   "target": "恒山",
+   "seed": 17,
+   "model": "transformer",
+   "setting": "zero-shot",
+   "mae_min": 5.46,
+   "secs": 16.7
+  },
+  {
+   "target": "衡山",
+   "seed": 17,
+   "model": "transformer",
+   "setting": "zero-shot",
+   "mae_min": 4.24,
+   "secs": 15.7
+  },
+  {
+   "target": "华山",
+   "seed": 17,
+   "model": "transformer",
+   "setting": "zero-shot",
+   "mae_min": 8.06,
+   "secs": 17.1
+  },
+  {
+   "target": "黄山",
+   "seed": 17,
+   "model": "transformer",
+   "setting": "zero-shot",
+   "mae_min": 7.67,
+   "secs": 18.6
+  },
+  {
+   "target": "九华山",
+   "seed": 17,
+   "model": "transformer",
+   "setting": "zero-shot",
+   "mae_min": 6.56,
+   "secs": 18.1
+  },
+  {
+   "target": "庐山",
+   "seed": 17,
+   "model": "transformer",
+   "setting": "zero-shot",
+   "mae_min": 5.71,
+   "secs": 15.0
+  },
+  {
+   "target": "青城山",
+   "seed": 17,
+   "model": "transformer",
+   "setting": "zero-shot",
+   "mae_min": 4.31,
+   "secs": 15.7
+  },
+  {
+   "target": "三清山",
+   "seed": 17,
+   "model": "transformer",
+   "setting": "zero-shot",
+   "mae_min": 6.84,
+   "secs": 15.6
+  },
+  {
+   "target": "嵩山",
+   "seed": 17,
+   "model": "transformer",
+   "setting": "zero-shot",
+   "mae_min": 6.73,
+   "secs": 15.2
+  },
+  {
+   "target": "太白山",
+   "seed": 17,
+   "model": "transformer",
+   "setting": "zero-shot",
+   "mae_min": 8.38,
+   "secs": 16.1
+  },
+  {
+   "target": "泰山",
+   "seed": 17,
+   "model": "transformer",
+   "setting": "zero-shot",
+   "mae_min": 6.87,
+   "secs": 15.6
+  },
+  {
+   "target": "五台山",
+   "seed": 17,
+   "model": "transformer",
+   "setting": "zero-shot",
+   "mae_min": 5.46,
+   "secs": 17.3
+  },
+  {
+   "target": "武当山",
+   "seed": 17,
+   "model": "transformer",
+   "setting": "zero-shot",
+   "mae_min": 5.12,
+   "secs": 17.7
+  },
+  {
+   "target": "武夷山",
+   "seed": 17,
+   "model": "transformer",
+   "setting": "zero-shot",
+   "mae_min": 5.27,
+   "secs": 16.3
+  },
+  {
+   "target": "雁荡山",
+   "seed": 17,
+   "model": "transformer",
+   "setting": "zero-shot",
+   "mae_min": 6.73,
+   "secs": 16.3
+  },
+  {
+   "target": "张家界",
+   "seed": 17,
+   "model": "transformer",
+   "setting": "zero-shot",
+   "mae_min": 6.33,
+   "secs": 15.1
+  }
+ ]
+}

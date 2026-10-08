@@ -1,0 +1,28 @@
+{
+ "acc": {
+  "same_scene": 0.861,
+  "zero_shot": 0.1385
+ },
+ "acc3": {
+  "same_scene": 0.9607,
+  "zero_shot": 0.3329
+ },
+ "acc5": {
+  "same_scene": 0.9742,
+  "zero_shot": 0.459
+ },
+ "macro_f1": {
+  "same_scene": 0.6496,
+  "zero_shot": 0.065
+ },
+ "dur_mae_min": {
+  "same_scene": 17.897,
+  "zero_shot": 30.1248
+ },
+ "scene_level_acc": {
+  "n_scenes": 20,
+  "mean_delta": 0.7225,
+  "k_same_gt_zero": 20,
+  "wilcoxon_p": 1.9073486328125e-06
+ }
+}

@@ -1,0 +1,78 @@
+# ── Secrets (never commit) ──────────────────────────────────────
+**/cookies.json
+.env
+.env.*
+*credential*
+*secret*
+*.pem
+*.key
+
+# ── Python ──────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# ── Datasets (NOT shipped in this repository) ───────────────────
+# Raw GPS trajectories, cleaned/clustered CSVs, DEM caches and features
+# are not distributed here. See docs/data.md for the data availability
+# statement and how to obtain the data.
+data/
+data_20/
+data-project/data/
+# Intermediate experiment JSONs under data-project/ are not shipped;
+# the curated results live in final_results/. Only the small study-area
+# bounding-box config is kept.
+data-project/*.json
+!data-project/scenes_20_bbox.json
+!data-project/scenes_20_bbox_report.json
+data-project/cleaned_labeled_data/
+data-project/cleaned_labeled_data_preleak_backup/
+data-project/segment_features/
+data-project/segment_features_leaky_backup/
+data-project/dem_cache/
+data-project/logs/
+data-project/test_visualization_output/
+cluster/datasets/
+cluster/output/
+poi/data/
+poi/figures/
+*.kml
+*.mat
+*.zip
+
+# ── Experiment outputs / caches ─────────────────────────────────
+prediction/output/
+results/
+results_export/
+ablation/output/
+baselines/output/
+batch_results.json
+*.log
+
+# CSV files are treated as data by default; the curated result tables
+# under final_results/ are the only CSV artifacts that are tracked.
+*.csv
+!final_results/*.csv
+
+# ── Papers / drafts / third-party (kept out of the public repo) ─
+·1/
+·1.zip
+gmf-net-paper/
+Spatio-Temporal-Hypergraph-Model-main/
+答辩速查.md
+论文.md
+实验报告.md
+修复计划.md
+baseline_comparison_report.md
+*.pdf
+
+# ── OS / editor ─────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/settings.json

@@ -1,0 +1,62 @@
+{
+ "dist_terrain": {
+  "macro": 6.9169,
+  "weighted": 6.7592,
+  "n_scenes": 20
+ },
+ "elev_only": {
+  "macro": 8.0135,
+  "weighted": 7.8338,
+  "n_scenes": 20
+ },
+ "full": {
+  "macro": 6.9025,
+  "weighted": 6.7134,
+  "n_scenes": 20
+ },
+ "no_dist": {
+  "macro": 6.9817,
+  "weighted": 6.8011,
+  "n_scenes": 20
+ },
+ "no_elev": {
+  "macro": 6.8787,
+  "weighted": 6.7412,
+  "n_scenes": 20
+ },
+ "no_grade": {
+  "macro": 6.9708,
+  "weighted": 6.8116,
+  "n_scenes": 20
+ },
+ "no_slope": {
+  "macro": 7.553,
+  "weighted": 7.3768,
+  "n_scenes": 20
+ },
+ "no_updown": {
+  "macro": 7.1094,
+  "weighted": 6.9142,
+  "n_scenes": 20
+ },
+ "slope_only": {
+  "macro": 6.9776,
+  "weighted": 6.8342,
+  "n_scenes": 20
+ },
+ "temporal_only": {
+  "macro": 7.9377,
+  "weighted": 7.8673,
+  "n_scenes": 20
+ },
+ "terrain_only": {
+  "macro": 7.0214,
+  "weighted": 6.817,
+  "n_scenes": 20
+ },
+ "updown_only": {
+  "macro": 7.3115,
+  "weighted": 7.2114,
+  "n_scenes": 20
+ }
+}

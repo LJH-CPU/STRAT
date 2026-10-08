@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use this code or the released results, please cite the STRAT paper."
+title: "STRAT: Spatio-Temporal Relational-Attention Transformer for Leakage-Free, Uncertainty-Aware Tourist Trajectory Forecasting"
+authors:
+  - name: "The STRAT Authors"
+license: MIT
+repository-code: "https://github.com/LJH-CPU/STRAT"
+type: software
+abstract: >-
+  STRAT is a leakage-free framework for uncertainty-aware tourist trajectory
+  forecasting in scenic areas. It couples granular-ball spectral clustering for
+  region/route discovery, a strict no-leakage evaluation protocol, a strictly
+  causal relational graph, and a joint next-region + probabilistic arrival-time
+  model calibrated at both segment and path level.
+keywords:
+  - trajectory forecasting
+  - next-location prediction
+  - arrival-time prediction
+  - granular-ball clustering
+  - transformer
+  - leakage-free evaluation

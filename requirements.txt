@@ -1,0 +1,14 @@
+# Core dependencies, pinned to the versions used for the paper experiments.
+#
+# PyTorch is listed without a CUDA build tag for portability. Install the
+# build matching your platform first, then the remaining packages:
+#   https://pytorch.org/get-started/locally/
+numpy==2.5.3
+pandas==3.0.3
+scikit-learn==1.9.1
+scipy==1.18.1
+matplotlib==3.11.1
+xgboost==3.4.0
+lightgbm==4.7.0
+requests==2.34.2
+torch==2.13.0

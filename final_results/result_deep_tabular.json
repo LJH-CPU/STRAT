@@ -1,0 +1,562 @@
+{
+ "seed17": [
+  {
+   "target": "太白山",
+   "seed": 17,
+   "model": "xgb",
+   "L": 1,
+   "setting": "zero-shot",
+   "mae_min": 8.857,
+   "n_train": 398118,
+   "n_test": 4414,
+   "secs": 1.2
+  },
+  {
+   "target": "长白山",
+   "seed": 17,
+   "model": "xgb",
+   "L": 1,
+   "setting": "zero-shot",
+   "mae_min": 9.846,
+   "n_train": 403156,
+   "n_test": 2915,
+   "secs": 1.3
+  },
+  {
+   "target": "庐山",
+   "seed": 17,
+   "model": "xgb",
+   "L": 1,
+   "setting": "zero-shot",
+   "mae_min": 5.377,
+   "n_train": 385301,
+   "n_test": 7378,
+   "secs": 1.2
+  },
+  {
+   "target": "华山",
+   "seed": 17,
+   "model": "xgb",
+   "L": 1,
+   "setting": "zero-shot",
+   "mae_min": 9.299,
+   "n_train": 400755,
+   "n_test": 3981,
+   "secs": 1.3
+  },
+  {
+   "target": "恒山",
+   "seed": 17,
+   "model": "xgb",
+   "L": 1,
+   "setting": "zero-shot",
+   "mae_min": 7.394,
+   "n_train": 411479,
+   "n_test": 895,
+   "secs": 1.3
+  },
+  {
+   "target": "太白山",
+   "seed": 17,
+   "model": "lgb",
+   "L": 1,
+   "setting": "zero-shot",
+   "mae_min": 8.767,
+   "n_train": 398118,
+   "n_test": 4414,
+   "secs": 1.4
+  },
+  {
+   "target": "长白山",
+   "seed": 17,
+   "model": "lgb",
+   "L": 1,
+   "setting": "zero-shot",
+   "mae_min": 9.858,
+   "n_train": 403156,
+   "n_test": 2915,
+   "secs": 1.5
+  },
+  {
+   "target": "庐山",
+   "seed": 17,
+   "model": "lgb",
+   "L": 1,
+   "setting": "zero-shot",
+   "mae_min": 5.368,
+   "n_train": 385301,
+   "n_test": 7378,
+   "secs": 1.3
+  },
+  {
+   "target": "华山",
+   "seed": 17,
+   "model": "lgb",
+   "L": 1,
+   "setting": "zero-shot",
+   "mae_min": 9.322,
+   "n_train": 400755,
+   "n_test": 3981,
+   "secs": 1.4
+  },
+  {
+   "target": "恒山",
+   "seed": 17,
+   "model": "lgb",
+   "L": 1,
+   "setting": "zero-shot",
+   "mae_min": 7.287,
+   "n_train": 411479,
+   "n_test": 895,
+   "secs": 1.4
+  }
+ ],
+ "seed42": [
+  {
+   "target": "太白山",
+   "seed": 42,
+   "model": "xgb",
+   "L": 1,
+   "setting": "zero-shot",
+   "mae_min": 9.548,
+   "n_train": 397545,
+   "n_test": 4609,
+   "secs": 1.3
+  },
+  {
+   "target": "长白山",
+   "seed": 42,
+   "model": "xgb",
+   "L": 1,
+   "setting": "zero-shot",
+   "mae_min": 9.721,
+   "n_train": 402664,
+   "n_test": 3191,
+   "secs": 1.2
+  },
+  {
+   "target": "庐山",
+   "seed": 42,
+   "model": "xgb",
+   "L": 1,
+   "setting": "zero-shot",
+   "mae_min": 5.604,
+   "n_train": 384943,
+   "n_test": 7788,
+   "secs": 1.2
+  },
+  {
+   "target": "华山",
+   "seed": 42,
+   "model": "xgb",
+   "L": 1,
+   "setting": "zero-shot",
+   "mae_min": 9.386,
+   "n_train": 399850,
+   "n_test": 3844,
+   "secs": 1.2
+  },
+  {
+   "target": "恒山",
+   "seed": 42,
+   "model": "xgb",
+   "L": 1,
+   "setting": "zero-shot",
+   "mae_min": 6.861,
+   "n_train": 410875,
+   "n_test": 1059,
+   "secs": 1.3
+  },
+  {
+   "target": "太白山",
+   "seed": 42,
+   "model": "lgb",
+   "L": 1,
+   "setting": "zero-shot",
+   "mae_min": 9.454,
+   "n_train": 397545,
+   "n_test": 4609,
+   "secs": 1.4
+  },
+  {
+   "target": "长白山",
+   "seed": 42,
+   "model": "lgb",
+   "L": 1,
+   "setting": "zero-shot",
+   "mae_min": 9.696,
+   "n_train": 402664,
+   "n_test": 3191,
+   "secs": 1.4
+  },
+  {
+   "target": "庐山",
+   "seed": 42,
+   "model": "lgb",
+   "L": 1,
+   "setting": "zero-shot",
+   "mae_min": 5.6,
+   "n_train": 384943,
+   "n_test": 7788,
+   "secs": 1.3
+  },
+  {
+   "target": "华山",
+   "seed": 42,
+   "model": "lgb",
+   "L": 1,
+   "setting": "zero-shot",
+   "mae_min": 9.393,
+   "n_train": 399850,
+   "n_test": 3844,
+   "secs": 1.4
+  },
+  {
+   "target": "恒山",
+   "seed": 42,
+   "model": "lgb",
+   "L": 1,
+   "setting": "zero-shot",
+   "mae_min": 6.695,
+   "n_train": 410875,
+   "n_test": 1059,
+   "secs": 1.4
+  }
+ ],
+ "seed100": [
+  {
+   "target": "太白山",
+   "seed": 100,
+   "model": "xgb",
+   "L": 1,
+   "setting": "zero-shot",
+   "mae_min": 9.042,
+   "n_train": 398215,
+   "n_test": 4742,
+   "secs": 1.3
+  },
+  {
+   "target": "长白山",
+   "seed": 100,
+   "model": "xgb",
+   "L": 1,
+   "setting": "zero-shot",
+   "mae_min": 10.026,
+   "n_train": 402888,
+   "n_test": 2878,
+   "secs": 1.3
+  },
+  {
+   "target": "庐山",
+   "seed": 100,
+   "model": "xgb",
+   "L": 1,
+   "setting": "zero-shot",
+   "mae_min": 5.483,
+   "n_train": 385442,
+   "n_test": 7750,
+   "secs": 1.2
+  },
+  {
+   "target": "华山",
+   "seed": 100,
+   "model": "xgb",
+   "L": 1,
+   "setting": "zero-shot",
+   "mae_min": 9.535,
+   "n_train": 400651,
+   "n_test": 4101,
+   "secs": 1.2
+  },
+  {
+   "target": "恒山",
+   "seed": 100,
+   "model": "xgb",
+   "L": 1,
+   "setting": "zero-shot",
+   "mae_min": 7.517,
+   "n_train": 411339,
+   "n_test": 986,
+   "secs": 1.3
+  },
+  {
+   "target": "太白山",
+   "seed": 100,
+   "model": "lgb",
+   "L": 1,
+   "setting": "zero-shot",
+   "mae_min": 8.828,
+   "n_train": 398215,
+   "n_test": 4742,
+   "secs": 1.4
+  },
+  {
+   "target": "长白山",
+   "seed": 100,
+   "model": "lgb",
+   "L": 1,
+   "setting": "zero-shot",
+   "mae_min": 10.029,
+   "n_train": 402888,
+   "n_test": 2878,
+   "secs": 1.4
+  },
+  {
+   "target": "庐山",
+   "seed": 100,
+   "model": "lgb",
+   "L": 1,
+   "setting": "zero-shot",
+   "mae_min": 5.448,
+   "n_train": 385442,
+   "n_test": 7750,
+   "secs": 1.3
+  },
+  {
+   "target": "华山",
+   "seed": 100,
+   "model": "lgb",
+   "L": 1,
+   "setting": "zero-shot",
+   "mae_min": 9.627,
+   "n_train": 400651,
+   "n_test": 4101,
+   "secs": 1.3
+  },
+  {
+   "target": "恒山",
+   "seed": 100,
+   "model": "lgb",
+   "L": 1,
+   "setting": "zero-shot",
+   "mae_min": 7.387,
+   "n_train": 411339,
+   "n_test": 986,
+   "secs": 1.4
+  }
+ ],
+ "seed2024": [
+  {
+   "target": "太白山",
+   "seed": 2024,
+   "model": "xgb",
+   "L": 1,
+   "setting": "zero-shot",
+   "mae_min": 9.145,
+   "n_train": 396055,
+   "n_test": 4318,
+   "secs": 1.3
+  },
+  {
+   "target": "长白山",
+   "seed": 2024,
+   "model": "xgb",
+   "L": 1,
+   "setting": "zero-shot",
+   "mae_min": 8.605,
+   "n_train": 401311,
+   "n_test": 3037,
+   "secs": 1.2
+  },
+  {
+   "target": "庐山",
+   "seed": 2024,
+   "model": "xgb",
+   "L": 1,
+   "setting": "zero-shot",
+   "mae_min": 5.446,
+   "n_train": 383711,
+   "n_test": 7755,
+   "secs": 1.2
+  },
+  {
+   "target": "华山",
+   "seed": 2024,
+   "model": "xgb",
+   "L": 1,
+   "setting": "zero-shot",
+   "mae_min": 9.063,
+   "n_train": 398632,
+   "n_test": 3825,
+   "secs": 1.2
+  },
+  {
+   "target": "恒山",
+   "seed": 2024,
+   "model": "xgb",
+   "L": 1,
+   "setting": "zero-shot",
+   "mae_min": 6.969,
+   "n_train": 409613,
+   "n_test": 996,
+   "secs": 1.3
+  },
+  {
+   "target": "太白山",
+   "seed": 2024,
+   "model": "lgb",
+   "L": 1,
+   "setting": "zero-shot",
+   "mae_min": 9.059,
+   "n_train": 396055,
+   "n_test": 4318,
+   "secs": 1.4
+  },
+  {
+   "target": "长白山",
+   "seed": 2024,
+   "model": "lgb",
+   "L": 1,
+   "setting": "zero-shot",
+   "mae_min": 8.547,
+   "n_train": 401311,
+   "n_test": 3037,
+   "secs": 1.4
+  },
+  {
+   "target": "庐山",
+   "seed": 2024,
+   "model": "lgb",
+   "L": 1,
+   "setting": "zero-shot",
+   "mae_min": 5.365,
+   "n_train": 383711,
+   "n_test": 7755,
+   "secs": 1.4
+  },
+  {
+   "target": "华山",
+   "seed": 2024,
+   "model": "lgb",
+   "L": 1,
+   "setting": "zero-shot",
+   "mae_min": 9.06,
+   "n_train": 398632,
+   "n_test": 3825,
+   "secs": 1.4
+  },
+  {
+   "target": "恒山",
+   "seed": 2024,
+   "model": "lgb",
+   "L": 1,
+   "setting": "zero-shot",
+   "mae_min": 6.797,
+   "n_train": 409613,
+   "n_test": 996,
+   "secs": 1.4
+  }
+ ],
+ "seed7": [
+  {
+   "target": "太白山",
+   "seed": 7,
+   "model": "xgb",
+   "L": 1,
+   "setting": "zero-shot",
+   "mae_min": 9.405,
+   "n_train": 398583,
+   "n_test": 4189,
+   "secs": 1.3
+  },
+  {
+   "target": "长白山",
+   "seed": 7,
+   "model": "xgb",
+   "L": 1,
+   "setting": "zero-shot",
+   "mae_min": 8.376,
+   "n_train": 404090,
+   "n_test": 3159,
+   "secs": 1.2
+  },
+  {
+   "target": "庐山",
+   "seed": 7,
+   "model": "xgb",
+   "L": 1,
+   "setting": "zero-shot",
+   "mae_min": 5.346,
+   "n_train": 386087,
+   "n_test": 7474,
+   "secs": 1.2
+  },
+  {
+   "target": "华山",
+   "seed": 7,
+   "model": "xgb",
+   "L": 1,
+   "setting": "zero-shot",
+   "mae_min": 9.062,
+   "n_train": 401429,
+   "n_test": 3965,
+   "secs": 1.3
+  },
+  {
+   "target": "恒山",
+   "seed": 7,
+   "model": "xgb",
+   "L": 1,
+   "setting": "zero-shot",
+   "mae_min": 7.121,
+   "n_train": 412461,
+   "n_test": 1187,
+   "secs": 1.3
+  },
+  {
+   "target": "太白山",
+   "seed": 7,
+   "model": "lgb",
+   "L": 1,
+   "setting": "zero-shot",
+   "mae_min": 9.269,
+   "n_train": 398583,
+   "n_test": 4189,
+   "secs": 1.4
+  },
+  {
+   "target": "长白山",
+   "seed": 7,
+   "model": "lgb",
+   "L": 1,
+   "setting": "zero-shot",
+   "mae_min": 8.328,
+   "n_train": 404090,
+   "n_test": 3159,
+   "secs": 1.4
+  },
+  {
+   "target": "庐山",
+   "seed": 7,
+   "model": "lgb",
+   "L": 1,
+   "setting": "zero-shot",
+   "mae_min": 5.318,
+   "n_train": 386087,
+   "n_test": 7474,
+   "secs": 1.4
+  },
+  {
+   "target": "华山",
+   "seed": 7,
+   "model": "lgb",
+   "L": 1,
+   "setting": "zero-shot",
+   "mae_min": 9.029,
+   "n_train": 401429,
+   "n_test": 3965,
+   "secs": 1.4
+  },
+  {
+   "target": "恒山",
+   "seed": 7,
+   "model": "lgb",
+   "L": 1,
+   "setting": "zero-shot",
+   "mae_min": 6.988,
+   "n_train": 412461,
+   "n_test": 1187,
+   "secs": 1.4
+  }
+ ]
+}

@@ -1,0 +1,323 @@
+{
+  "note": "无泄漏全量重跑（20 景区 leave-one-scene-out；scene 级统计 n=20）。单位：min/500m（段级）、min（区域时长）。",
+  "segment": {
+    "ladder": {
+      "Naismith": {
+        "zero_shot": null,
+        "self_train": null,
+        "physics": 7.53
+      },
+      "ridge": {
+        "zero_shot": 7.44,
+        "self_train": 6.79
+      },
+      "rf": {
+        "zero_shot": 8.02,
+        "self_train": 5.71
+      },
+      "et": {
+        "zero_shot": 8.02,
+        "self_train": 5.62
+      },
+      "knn": {
+        "zero_shot": 8.24,
+        "self_train": 6.05
+      },
+      "xgb": {
+        "zero_shot": 6.9,
+        "self_train": 5.41
+      },
+      "lgb": {
+        "zero_shot": 6.88,
+        "self_train": 5.39
+      }
+    },
+    "retention_self_over_zero_xgb": 0.784,
+    "slope_ablation": {
+      "comparison": "no_slope - full",
+      "n_scenes": 20,
+      "scenes": [
+        "三清山",
+        "丹霞山",
+        "九华山",
+        "五台山",
+        "华山",
+        "太白山",
+        "峨眉山",
+        "嵩山",
+        "庐山",
+        "张家界",
+        "恒山",
+        "梵净山",
+        "武夷山",
+        "武当山",
+        "泰山",
+        "衡山",
+        "长白山",
+        "雁荡山",
+        "青城山",
+        "黄山"
+      ],
+      "scene_mean_delta_min": 0.6504,
+      "scene_ci95_min": [
+        0.2901,
+        1.0108
+      ],
+      "k_scenes_positive": 18,
+      "seed_positive_frac": 0.9,
+      "wilcoxon_W": 24.0,
+      "wilcoxon_p": 0.0014324188232421875,
+      "rank_biserial": 0.7714,
+      "cohen_dz": 0.8448,
+      "per_scene_seed_sd": {
+        "三清山": 0.1231,
+        "丹霞山": 0.0953,
+        "九华山": 0.0319,
+        "五台山": 0.2539,
+        "华山": 0.061,
+        "太白山": 0.1867,
+        "峨眉山": 0.0625,
+        "嵩山": 0.0321,
+        "庐山": 0.0476,
+        "张家界": 0.023,
+        "恒山": 0.0237,
+        "梵净山": 0.0737,
+        "武夷山": 0.0217,
+        "武当山": 0.0589,
+        "泰山": 0.034,
+        "衡山": 0.0433,
+        "长白山": 0.436,
+        "雁荡山": 0.0534,
+        "青城山": 0.0417,
+        "黄山": 0.0189
+      }
+    },
+    "elev_ablation": {
+      "comparison": "no_elev - full",
+      "n_scenes": 20,
+      "scenes": [
+        "三清山",
+        "丹霞山",
+        "九华山",
+        "五台山",
+        "华山",
+        "太白山",
+        "峨眉山",
+        "嵩山",
+        "庐山",
+        "张家界",
+        "恒山",
+        "梵净山",
+        "武夷山",
+        "武当山",
+        "泰山",
+        "衡山",
+        "长白山",
+        "雁荡山",
+        "青城山",
+        "黄山"
+      ],
+      "scene_mean_delta_min": -0.0238,
+      "scene_ci95_min": [
+        -0.2308,
+        0.1832
+      ],
+      "k_scenes_positive": 10,
+      "seed_positive_frac": 0.5,
+      "wilcoxon_W": 103.0,
+      "wilcoxon_p": 0.956329345703125,
+      "rank_biserial": 0.019,
+      "cohen_dz": -0.0539,
+      "per_scene_seed_sd": {
+        "三清山": 0.087,
+        "丹霞山": 0.2603,
+        "九华山": 0.0349,
+        "五台山": 0.1077,
+        "华山": 0.037,
+        "太白山": 0.2265,
+        "峨眉山": 0.0309,
+        "嵩山": 0.0142,
+        "庐山": 0.0261,
+        "张家界": 0.0255,
+        "恒山": 0.0933,
+        "梵净山": 0.0531,
+        "武夷山": 0.0644,
+        "武当山": 0.0397,
+        "泰山": 0.0229,
+        "衡山": 0.038,
+        "长白山": 0.0337,
+        "雁荡山": 0.0355,
+        "青城山": 0.029,
+        "黄山": 0.0245
+      }
+    },
+    "few_shot_gain_min": {
+      "0.05": 0.09,
+      "0.1": 0.16,
+      "0.25": 0.3
+    },
+    "matched_size_gain_min": {
+      "matched-A": -0.0,
+      "matched-B": 0.19
+    },
+    "aggregate_macro_weighted": {
+      "dist_terrain": {
+        "macro": 6.9169,
+        "weighted": 6.7592,
+        "n_scenes": 20
+      },
+      "elev_only": {
+        "macro": 8.0135,
+        "weighted": 7.8338,
+        "n_scenes": 20
+      },
+      "full": {
+        "macro": 6.9025,
+        "weighted": 6.7134,
+        "n_scenes": 20
+      },
+      "no_dist": {
+        "macro": 6.9817,
+        "weighted": 6.8011,
+        "n_scenes": 20
+      },
+      "no_elev": {
+        "macro": 6.8787,
+        "weighted": 6.7412,
+        "n_scenes": 20
+      },
+      "no_grade": {
+        "macro": 6.9708,
+        "weighted": 6.8116,
+        "n_scenes": 20
+      },
+      "no_slope": {
+        "macro": 7.553,
+        "weighted": 7.3768,
+        "n_scenes": 20
+      },
+      "no_updown": {
+        "macro": 7.1094,
+        "weighted": 6.9142,
+        "n_scenes": 20
+      },
+      "slope_only": {
+        "macro": 6.9776,
+        "weighted": 6.8342,
+        "n_scenes": 20
+      },
+      "temporal_only": {
+        "macro": 7.9377,
+        "weighted": 7.8673,
+        "n_scenes": 20
+      },
+      "terrain_only": {
+        "macro": 7.0214,
+        "weighted": 6.817,
+        "n_scenes": 20
+      },
+      "updown_only": {
+        "macro": 7.3115,
+        "weighted": 7.2114,
+        "n_scenes": 20
+      }
+    },
+    "deep_family_zero_shot": {
+      "lstm": 8.99,
+      "transformer": 6.66
+    },
+    "calibration_zero_shot_picp90": 0.877,
+    "calibration_zero_shot_crps_min": 5.37,
+    "scene_probe_acc": 0.528,
+    "char_few_shot_mae": {
+      "0.0": 6.86,
+      "0.05": 6.81,
+      "0.1": 6.76,
+      "0.25": 6.66
+    },
+    "char_ablation_mae": {
+      "full": 6.86,
+      "no_slope": 7.55,
+      "no_elev": 6.88
+    },
+    "seqlen_matrix": {
+      "transformer": {
+        "1": 7.99,
+        "2": 7.64,
+        "4": 6.98,
+        "8": 6.23
+      },
+      "lstm": {
+        "1": 8.33,
+        "2": 8.03,
+        "4": 7.87,
+        "8": 7.84
+      },
+      "xgb_single_step": 6.9,
+      "lgb_single_step": 6.88
+    }
+  },
+  "region": {
+    "collapse": {
+      "acc": {
+        "same_scene": 0.861,
+        "zero_shot": 0.1385
+      },
+      "acc3": {
+        "same_scene": 0.9607,
+        "zero_shot": 0.3329
+      },
+      "acc5": {
+        "same_scene": 0.9742,
+        "zero_shot": 0.459
+      },
+      "macro_f1": {
+        "same_scene": 0.6496,
+        "zero_shot": 0.065
+      },
+      "dur_mae_min": {
+        "same_scene": 17.897,
+        "zero_shot": 30.1248
+      },
+      "scene_level_acc": {
+        "n_scenes": 20,
+        "mean_delta": 0.7225,
+        "k_same_gt_zero": 20,
+        "wilcoxon_p": 1.9073486328125e-06
+      }
+    },
+    "same_acc": 0.861,
+    "zero_acc": 0.1385,
+    "same_macro_f1": 0.6496,
+    "zero_macro_f1": 0.065,
+    "kvocab_acc": {
+      "K/2": 0.2213,
+      "K": 0.1102,
+      "2K": 0.0473
+    },
+    "module_acc": {
+      "full": 0.1312,
+      "minus_rgcn": 0.1127,
+      "minus_route": 0.1297,
+      "minus_region": 0.1272,
+      "transformer": 0.1381
+    },
+    "seqlen_acc": {
+      "seqlen1": 0.0,
+      "seqlen2": 0.089,
+      "seqlen4": 0.0998,
+      "seqlen8": 0.1395
+    },
+    "randid_control": {
+      "randomized_identity_acc": 0.1355,
+      "randomized_identity_macro_f1": 0.0631,
+      "randomized_identity_dur_mae_min": 32.4153,
+      "reference": {
+        "region_identity": 0.1312,
+        "region_only": 0.1272,
+        "plain_transformer": 0.1381,
+        "fine_grained_physical_segment_xgb": 6.9
+      }
+    }
+  }
+}

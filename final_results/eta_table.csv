@@ -1,0 +1,7 @@
+condition,mae_min,gain_vs_zero_min
+zero-shot,6.903,0.0
+few-shot 5%,6.815,0.088
+few-shot 10%,6.745,0.158
+few-shot 25%,6.604,0.298
+matched-A (extra source),6.904,-0.001
+matched-B (size-matched),6.717,0.185

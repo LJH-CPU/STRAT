@@ -1,0 +1,18 @@
+[project]
+name = "strat"
+version = "0.1.0"
+description = "STRAT: Spatio-Temporal Relational-Attention Transformer for leakage-free, uncertainty-aware tourist trajectory forecasting in scenic areas"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+dependencies = [
+    "numpy",
+    "pandas",
+    "scikit-learn",
+    "scipy",
+    "matplotlib",
+    "xgboost",
+    "lightgbm",
+    "requests",
+    "torch",
+]
